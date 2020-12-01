@@ -1,15 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #1e2d3b;
+}
+
 #app {
   width: 60%;
+  height: 100vh;
   margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
 }
 
 .container {
-  width: calc((100% / 4));
-
-  background-color: pink;
-  display: inline-block;
+  width: calc((100% / 4) - 40px);
+  background-color: #2e3a46;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 10px;
+  color: white;
 }
 
 img {
-  max-width: 100%;
+  max-width: 90px;
+}
+
+p {
+  color: gray;
+  margin-top: 15px;
 }
