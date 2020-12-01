@@ -21,18 +21,27 @@ body {
 
 .container {
   width: calc((100% / 4) - 40px);
+  height: calc((100% / 3) - 15px);
   background-color: #2e3a46;
   text-align: center;
   padding: 10px;
-  margin: 5px 10px;
+  margin: 5px 15px;
   color: white;
 }
 
+h3 {
+  margin-bottom: 15px;
+}
+
 img {
-  max-width: 90px;
+  max-height: 85px;
+  margin: 5px;
 }
 
 p {
   color: gray;
-  margin-top: 15px;
+  font-size: 14px;
 }
+ p:last-child {
+   font-size: 12px;
+ }
