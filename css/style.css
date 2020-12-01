@@ -1,0 +1,15 @@
+#app {
+  width: 60%;
+  margin: auto;
+}
+
+.container {
+  width: calc((100% / 4));
+
+  background-color: pink;
+  display: inline-block;
+}
+
+img {
+  max-width: 100%;
+}

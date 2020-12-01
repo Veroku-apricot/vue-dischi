@@ -2,6 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <!-- Link css -->
+    <link rel="stylesheet" href="css/style.css">
     <!-- Link Vue -->
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <!-- link axios -->
@@ -10,8 +12,8 @@
   </head>
   <body>
     <div id="app">
-      <div class="" v-for="(album, index) in albums">
-        <img src="" alt="">
+      <div class="container" v-for="(album, index) in albums">
+        <img :src="album.poster" alt="Album img">
         <h3>{{album.title}}</h3>
         <p>{{album.author}} <br> {{album.year}}</p>
 
